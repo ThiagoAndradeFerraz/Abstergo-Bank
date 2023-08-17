@@ -1,15 +1,15 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D138E06B-B743-4F34-6355-3F38AB8E7AE6" containerWithKeyObject="2E656A74-7FD6-CEEB-020A-300A35064588" localFKIndex="4661A89A-4706-9FBA-B85F-48F4172ECD19" name="FK_ACCOUNT_CUSTOMER">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D138E06B-B743-4F34-6355-3F38AB8E7AE6" containerWithKeyObject="2E656A74-7FD6-CEEB-020A-300A35064588" localFKIndex="4661A89A-4706-9FBA-B85F-48F4172ECD19" name="FK_ACCOUNT_CLIENT">
 <createdBy>thiag</createdBy>
 <createdTime>2023-08-16 03:19:52 UTC</createdTime>
 <ownerDesignName>Abstergo Bank</ownerDesignName>
-<referredTableLongName>CUSTOMER</referredTableLongName>
+<referredTableLongName>CLIENT</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>6EDB9854-19F4-B308-5D65-2CDB00CF9F2E</referredTableID>
 <keyObject>D1974B9C-C473-8494-4224-46E4087F00CC</keyObject>
 <referredKeyID>D1974B9C-C473-8494-4224-46E4087F00CC</referredKeyID>
 <mandatory>true</mandatory>
-<refColNames>ID_CUSTOMER</refColNames>
+<refColNames>ID_CLIENT</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>
 <columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>

@@ -17,6 +17,8 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>20</dataTypePrecision>
 <ownDataTypeParameters>,20,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="NUM_BALANCE" id="7DC656F1-AF3E-7B29-D173-1695AB667F3E">
@@ -31,7 +33,7 @@
 <ownDataTypeParameters>,15,2</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="ID_CUSTOMER" id="B865C1AB-5CFC-BA3E-460E-D68477D74305">
+<Column name="ID_CLIENT" id="B865C1AB-5CFC-BA3E-460E-D68477D74305">
 <createdBy>thiag</createdBy>
 <createdTime>2023-08-16 03:19:52 UTC</createdTime>
 <ownerDesignName>Abstergo Bank</ownerDesignName>
@@ -102,7 +104,7 @@
 <colUsage columnID="B865C1AB-5CFC-BA3E-460E-D68477D74305"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="4661A89A-4706-9FBA-B85F-48F4172ECD19" name="FK_ACCOUNT_CUSTOMER">
+<ind_PK_UK id="4661A89A-4706-9FBA-B85F-48F4172ECD19" name="FK_ACCOUNT_CLIENT">
 <createdBy>thiag</createdBy>
 <createdTime>2023-08-16 03:19:52 UTC</createdTime>
 <ownerDesignName>Abstergo Bank</ownerDesignName>

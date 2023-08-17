@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6EDB9854-19F4-B308-5D65-2CDB00CF9F2E" name="CUSTOMER">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6EDB9854-19F4-B308-5D65-2CDB00CF9F2E" name="CLIENT">
 <createdBy>thiag</createdBy>
 <createdTime>2023-08-16 01:35:21 UTC</createdTime>
 <ownerDesignName>Abstergo Bank</ownerDesignName>
@@ -8,7 +8,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="ID_CUSTOMER" id="05C36446-3D4A-4608-5A2A-CD7EE5E30048">
+<Column name="ID_CLIENT" id="05C36446-3D4A-4608-5A2A-CD7EE5E30048">
 <createdBy>thiag</createdBy>
 <createdTime>2023-08-16 01:46:59 UTC</createdTime>
 <ownerDesignName>Abstergo Bank</ownerDesignName>
@@ -17,6 +17,8 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>15</dataTypePrecision>
 <ownDataTypeParameters>,15,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="TXT_DOCUMENT" id="17D921D0-AA70-EBFB-D97A-667B17F7DF25">
@@ -64,7 +66,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="D1974B9C-C473-8494-4224-46E4087F00CC" name="PK_CUSTOMER">
+<ind_PK_UK id="D1974B9C-C473-8494-4224-46E4087F00CC" name="PK_CLIENT">
 <createdBy>thiag</createdBy>
 <createdTime>2023-08-16 01:46:59 UTC</createdTime>
 <ownerDesignName>Abstergo Bank</ownerDesignName>
@@ -75,7 +77,7 @@
 <colUsage columnID="05C36446-3D4A-4608-5A2A-CD7EE5E30048"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="80063801-1AE2-065F-E58E-1C8521470B09" name="UN_CUSTOMER_1">
+<ind_PK_UK id="80063801-1AE2-065F-E58E-1C8521470B09" name="UN_CLIENT_1">
 <createdBy>thiag</createdBy>
 <createdTime>2023-08-16 01:48:51 UTC</createdTime>
 <ownerDesignName>Abstergo Bank</ownerDesignName>
@@ -85,7 +87,7 @@
 <colUsage columnID="17D921D0-AA70-EBFB-D97A-667B17F7DF25"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="AC95937B-EFD4-5BB5-24D7-FCBB169EDA75" name="IDX_CUSTOMER_1">
+<ind_PK_UK id="AC95937B-EFD4-5BB5-24D7-FCBB169EDA75" name="IDX_CLIENT_1">
 <createdBy>thiag</createdBy>
 <createdTime>2023-08-16 01:48:51 UTC</createdTime>
 <ownerDesignName>Abstergo Bank</ownerDesignName>
@@ -94,7 +96,7 @@
 <colUsage columnID="05C36446-3D4A-4608-5A2A-CD7EE5E30048"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="01D8B1B5-9FDA-5CD5-9405-B4E00F873F41" name="IDX_CUSTOMER_2">
+<ind_PK_UK id="01D8B1B5-9FDA-5CD5-9405-B4E00F873F41" name="IDX_CLIENT_2">
 <createdBy>thiag</createdBy>
 <createdTime>2023-08-16 01:48:51 UTC</createdTime>
 <ownerDesignName>Abstergo Bank</ownerDesignName>
