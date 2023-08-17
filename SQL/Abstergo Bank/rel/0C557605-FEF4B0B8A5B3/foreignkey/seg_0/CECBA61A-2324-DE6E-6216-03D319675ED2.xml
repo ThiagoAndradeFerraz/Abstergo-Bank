@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CECBA61A-2324-DE6E-6216-03D319675ED2" containerWithKeyObject="2E656A74-7FD6-CEEB-020A-300A35064588" localFKIndex="8991D982-7DB9-FE41-95B9-0E0879AA02AC" name="FK_ACCOUNT_BRANCHES">
+<createdBy>thiag</createdBy>
+<createdTime>2023-08-17 02:19:24 UTC</createdTime>
+<ownerDesignName>Abstergo Bank</ownerDesignName>
+<referredTableLongName>BRANCHES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>71038D95-2935-B050-4BD2-005B5B73C708</referredTableID>
+<keyObject>D6561CA4-FE3D-DE5A-1C55-9390E028FD3E</keyObject>
+<referredKeyID>D6561CA4-FE3D-DE5A-1C55-9390E028FD3E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_BRANCH</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

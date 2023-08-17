@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2E656A74-7FD6-CEEB-020A-300A35064588" name="ACCOUNT">
+<createdBy>thiag</createdBy>
+<createdTime>2023-08-16 02:42:49 UTC</createdTime>
+<ownerDesignName>Abstergo Bank</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_ACCOUNT" id="547B2D2A-C1BF-CF70-8585-BEF1958FBD48">
+<createdBy>thiag</createdBy>
+<createdTime>2023-08-16 03:17:11 UTC</createdTime>
+<ownerDesignName>Abstergo Bank</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUM_BALANCE" id="7DC656F1-AF3E-7B29-D173-1695AB667F3E">
+<createdBy>thiag</createdBy>
+<createdTime>2023-08-16 03:17:11 UTC</createdTime>
+<ownerDesignName>Abstergo Bank</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,15,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_CUSTOMER" id="B865C1AB-5CFC-BA3E-460E-D68477D74305">
+<createdBy>thiag</createdBy>
+<createdTime>2023-08-16 03:19:52 UTC</createdTime>
+<ownerDesignName>Abstergo Bank</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D138E06B-B743-4F34-6355-3F38AB8E7AE6" referredColumn="05C36446-3D4A-4608-5A2A-CD7EE5E30048"/>
+</associations>
+</Column>
+<Column name="ID_BRANCH" id="7DFA6221-A0B6-28C2-9B53-6926E79848EA">
+<createdBy>thiag</createdBy>
+<createdTime>2023-08-17 02:19:24 UTC</createdTime>
+<ownerDesignName>Abstergo Bank</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CECBA61A-2324-DE6E-6216-03D319675ED2" referredColumn="7D325516-A445-E501-A704-3981275385B3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="27B9F3FE-066C-336C-B550-419FECBADA15" name="PK_ACCOUNT">
+<createdBy>thiag</createdBy>
+<createdTime>2023-08-16 03:17:11 UTC</createdTime>
+<ownerDesignName>Abstergo Bank</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="547B2D2A-C1BF-CF70-8585-BEF1958FBD48"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C245ACF7-D47D-F186-E6CD-42DB3A34745C" name="UN_ACCOUNT_1">
+<createdBy>thiag</createdBy>
+<createdTime>2023-08-16 03:20:33 UTC</createdTime>
+<ownerDesignName>Abstergo Bank</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B865C1AB-5CFC-BA3E-460E-D68477D74305"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="08FCAAA6-8338-D24F-0D2A-09C1341D4E7E" name="IDX_ACCOUNT_1">
+<createdBy>thiag</createdBy>
+<createdTime>2023-08-17 02:07:02 UTC</createdTime>
+<ownerDesignName>Abstergo Bank</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="547B2D2A-C1BF-CF70-8585-BEF1958FBD48"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D8F34799-DFEC-419C-7066-EA09964C9C42" name="IDX_ACCOUNT_2">
+<createdBy>thiag</createdBy>
+<createdTime>2023-08-17 02:07:02 UTC</createdTime>
+<ownerDesignName>Abstergo Bank</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B865C1AB-5CFC-BA3E-460E-D68477D74305"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4661A89A-4706-9FBA-B85F-48F4172ECD19" name="FK_ACCOUNT_CUSTOMER">
+<createdBy>thiag</createdBy>
+<createdTime>2023-08-16 03:19:52 UTC</createdTime>
+<ownerDesignName>Abstergo Bank</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B865C1AB-5CFC-BA3E-460E-D68477D74305"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8991D982-7DB9-FE41-95B9-0E0879AA02AC" name="FK_ACCOUNT_BRANCHES">
+<createdBy>thiag</createdBy>
+<createdTime>2023-08-17 02:19:24 UTC</createdTime>
+<ownerDesignName>Abstergo Bank</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7DFA6221-A0B6-28C2-9B53-6926E79848EA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
